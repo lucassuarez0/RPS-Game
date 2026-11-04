@@ -1,4 +1,5 @@
-#Rock paper scissors game
+# Rock Paper Scissors Game (Command Line)
+
 import random
 
 
