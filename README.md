@@ -43,8 +43,9 @@ Run the example script:
 python app/my_script.py
 
 # alternatively:
-python -m app.my_script
+python -m app.my_script #This is better for more complex files when running python programs. 
 ```
+
 
 
 Run the example script:
@@ -54,4 +55,11 @@ python app/rps.py
 
 # alternatively:
 python -m app.rps
+```
+
+## Testing
+
+To run tests:
+```sh
+pytest
 ```
