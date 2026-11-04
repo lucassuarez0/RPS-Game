@@ -1,4 +1,4 @@
-# my-first-app-fall-2026
+# RPS Game
 
 ## Prerequisites
 
