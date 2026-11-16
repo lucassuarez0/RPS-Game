@@ -1,18 +1,23 @@
 # RPS Game
 
+A command line game of Rock Paper Scissors, played against the computer. Includes automated tests and continuous integration with GitHub Actions.
+
 ## Prerequisites
 
-Install python version 3.x (for example using Anaconda).
+Install Python 3.x (for example using Anaconda).
 
 ## Setup
 
-some instructions here
+1. Clone the repo from GitHub and put it somewhere (like your Desktop):
 
-1. Clone [the repo](https://github.com/lucassuarez0/RPS-Game) from GitHub, and put it somewhere (like your Desktop).
+```sh
+git clone https://github.com/lucassuarez0/RPS-Game.git
+```
+
 2. Navigate to the local repo from the command line (for example if on your desktop):
 
 ```sh
-cd ~/Desktop/RPS Game
+cd ~/Desktop/RPS-Game
 ```
 
 3. Create a new Anaconda virtual environment called "rps-env" (first time only):
@@ -21,7 +26,7 @@ cd ~/Desktop/RPS Game
 conda create -n rps-env python=3.11
 ```
 
-4. Activate the virtual environment as necessary (every time you come back to the project):
+4. Activate the virtual environment (every time you come back to the project):
 
 ```sh
 conda activate rps-env
@@ -35,20 +40,13 @@ pip install -r requirements.txt
 
 ## Usage
 
-some commands here to run our file(s)
-
 Run the example script:
 
 ```sh
 python app/my_script.py
-
-# alternatively:
-python -m app.my_script #This is better for more complex files when running python programs. 
 ```
 
-
-
-Run the example script:
+Play the game:
 
 ```sh
 python app/rps.py
@@ -59,7 +57,8 @@ python -m app.rps
 
 ## Testing
 
-To run tests:
+Run the automated tests:
+
 ```sh
 pytest
 ```
